@@ -33,3 +33,4 @@ console.log("should be 0: ", minSubArrayLen(11, [1, 1, 1, 1, 1, 1, 1, 1]));
 
 // negative numbers
 console.log("should be 3: ", minSubArrayLen(8, [2, 1, 1, 5, -1, 4]));
+console.log("should be 3: ", minSubArrayLen(8, [5, -1, 4, 2, 1, 1]));
