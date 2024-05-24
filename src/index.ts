@@ -26,7 +26,6 @@ function minSubArrayLen(target: number, nums: number[]): number {
   return minimumLength === Number.MAX_VALUE ? 0 : minimumLength;
 }
 
-debugger;
 console.log("RESULTS");
 console.log("should be 2: ", minSubArrayLen(7, [2, 3, 1, 2, 4, 3]));
 console.log("should be 1: ", minSubArrayLen(4, [1, 4, 4]));
